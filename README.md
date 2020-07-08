@@ -38,7 +38,7 @@ node --version > .node-version
 
 ## Compatibility/Support
 
-🚧Work in progress! 🚧
+🚧 Work in progress! 🚧
 
 | Version  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
