@@ -40,16 +40,16 @@ node --version > .node-version
 
 🚧Work in progress!
 
-| Feature  | fnm | nodenv | nvs |
-| -------- | --- | ------ | --- |
-| leading v  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
-| partial version, 10.2 | :white_check_mark:  | :x: |  ? |
+| Feature  | fnm | nodenv | nvh | nvs |
+| -------- | --- | ------ | --- | --- |
+| leading v  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
+| partial version, 10.2 | :white_check_mark:  | :x: | :white_check_mark:  |  ? |
 
 | Format  | fnm | nodenv | nvs |
 | -------- | --- | ------ | --- |
-| Windows EOL  | :white_check_mark:  | :white_check_mark:  | ? |
-| missing EOL | :white_check_mark:  | :white_check_mark:  | ? |
-| Linux/Mac EOL | :white_check_mark:  | :white_check_mark:  | ? |
+| Windows EOL  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
+| missing EOL | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
+| Linux/Mac EOL | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
 
 ## References
 
