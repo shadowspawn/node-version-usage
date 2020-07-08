@@ -45,8 +45,8 @@ node --version > .node-version
 | leading v  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
 | partial version, 10.2 | :white_check_mark:  | :x: | :white_check_mark:  |  ? |
 
-| Format  | fnm | nodenv | nvs |
-| -------- | --- | ------ | --- |
+| Format  | fnm | nodenv | nvh | nvs |
+| -------- | --- | ------ | --- | --- |
 | Windows EOL  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
 | missing EOL | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
 | Linux/Mac EOL | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
