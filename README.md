@@ -1,4 +1,4 @@
-# .node-version
+# .node-version File Usage
 
 Q: Is `.node-version` read by multiple node version managers?  
 A: Yes.
