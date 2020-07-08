@@ -40,7 +40,7 @@ node --version > .node-version
 
 🚧Work in progress! 🚧
 
-| Feature  | fnm | nodenv | nvh | nvs |
+| Version  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
 | simple: 14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
 | leading v: v14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
