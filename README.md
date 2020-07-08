@@ -36,16 +36,17 @@ So for example, this is likely to produce a widely compatible file:
 node --version > .node-version
 ```
 
-## 🚧Feature Compatibility
+## Compatibility/Support
 
 🚧Work in progress!
 
 | Feature  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
-| leading v  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
-| partial version, 10.2 | :white_check_mark:  | :x: | :white_check_mark:  |  ? |
+| simple: 14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
+| leading v: v14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
+| partial version: 10.2 | :white_check_mark:  | :x: | :white_check_mark:  |  ? |
 
-| Format  | fnm | nodenv | nvh | nvs |
+| Line Ending  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
 | Windows EOL  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
 | missing EOL | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | ? |
