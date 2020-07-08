@@ -54,7 +54,7 @@ node --version > .node-version
 
 ## References
 
-For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (This is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
+For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
 
 - <https://gist.github.com/fnichol/1912050#gistcomment-682506>
 
