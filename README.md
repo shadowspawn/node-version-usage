@@ -3,10 +3,10 @@
 Q: Is `.node-version` read by multiple node version managers?  
 A: Yes.
 
-Q: Does `.node-version` have a common or standard file format?  
+Q: Does `.node-version` have a defined common or standard file format?  
 A: No.
 
-Q: So what compatibility is there?  
+Q: So what compatibility is there across individual products?  
 A: Good question! Read on...
 
 ## Supporting Products
@@ -24,20 +24,39 @@ Products which read a `.node-version` file include (in alphabetical order):
 
 ## Suggested Compatible Format
 
-Very few of the supporting products specify what they expect the file to contain, and I expect most just read it and process it as normal for _their_ version support. I would like to fill out the details on which products support which features, but for now here is an educated guess based on what I have seen.
+Very few of the supporting products document what they expect the file to contain! From what I have seen most just read it and process it as normal for _their_ version support. This is an educated guess based on what I have seen.
 
 - single line
 - three part numeric version e.g. 14.5.0
 - optional leading 'v' e.g. v14.5.0
 
-So for example, this is likely to produce a widely compatible file (`sh`):
+So for example, this is likely to produce a widely compatible file:
 
-```
+```bash
 node --version > .node-version
 ```
 
-## .ruby-version
+## 🚧Feature Compatibility
 
-For interest, here is a discussion about similar `.ruby-version` file format:
+🚧Work in progress!
 
-- https://gist.github.com/fnichol/1912050#gistcomment-682506
+| Feature  | fnm | nodenv | nvs |
+| -------- | --- | ------ | --- |
+| leading v  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
+| partial version, 10.2 | :white_check_mark:  | :x: |  ? |
+
+| Format  | fnm | nodenv | nvs |
+| -------- | --- | ------ | --- |
+| Windows EOL  | :white_check_mark:  | :white_check_mark:  | ? |
+| missing EOL | :white_check_mark:  | :white_check_mark:  | ? |
+| Linux/Mac EOL | :white_check_mark:  | :white_check_mark:  | ? |
+
+## References
+
+For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (This is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
+
+- <https://gist.github.com/fnichol/1912050#gistcomment-682506>
+
+Discussion about a standard for `.node-version` was opened in 2016 but got a bit bogged down. No agreement after over 3 years.
+
+- <https://github.com/nodejs/version-management/issues/13>
