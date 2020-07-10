@@ -44,7 +44,7 @@ node --version > .node-version
 | -------- | --- | ------ | --- | --- |
 | simple: 14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
 | leading v: v14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
-| partial version: 10.2 | :white_check_mark:  | 🧩 | :white_check_mark:  | :white_check_mark: |
+| partial version: 10.2 | :white_check_mark:  | 🧩 #1 | :white_check_mark:  | :white_check_mark: |
 
 | Line Ending  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
