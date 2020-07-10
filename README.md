@@ -40,14 +40,14 @@ node --version > .node-version
 
 🚧 Work in progress! 🚧
 
-| Version  | direnv | fnm | nodenv | nvh | nvs |
-| -------- | --- | ------ | --- | --- |
+| Version | direnv | fnm | nodenv | nvh | nvs |
+| ------- | ------ | --- | ------ | --- | --- |
 | simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | leading v: v14.5.0  | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | partial version: 10.2 | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: |
 
-| Line Ending  | direnv | fnm | nodenv | nvh | nvs |
-| -------- | --- | ------ | --- | --- |
+| Line Ending | direnv | fnm | nodenv | nvh | nvs |
+| ----------- | ------ | --- | ------ | --- | --- |
 | Linux/Mac EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
