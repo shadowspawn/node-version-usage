@@ -44,7 +44,7 @@ node --version > .node-version
 | -------- | --- | ------ | --- | --- |
 | simple: 14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
 | leading v: v14.5.0  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  | :white_check_mark:  |
-| partial version: 10.2 | :white_check_mark:  | 🧩 #1 | :white_check_mark:  | :white_check_mark: |
+| partial version: 10.2 | :white_check_mark:  | 🧩 [#1] | :white_check_mark:  | :white_check_mark: |
 
 | Line Ending  | fnm | nodenv | nvh | nvs |
 | -------- | --- | ------ | --- | --- |
@@ -61,3 +61,5 @@ For interest, here is a discussion about similar `.ruby-version` file format. Th
 Discussion about a standard for `.node-version` was opened in 2016 but got a bit bogged down. No agreement after over 3 years.
 
 - <https://github.com/nodejs/version-management/issues/13>
+
+[#1]: https://github.com/shadowspawn/node-version-usage/issues/1
