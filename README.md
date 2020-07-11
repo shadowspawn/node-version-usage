@@ -13,14 +13,14 @@ A: Good question! Read on...
 
 Products which read a `.node-version` file include (in alphabetical order):
 
-- [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager
-- [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node
-- [direnv](https://github.com/direnv/direnv) unclutter your .profile
-- [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in native ReasonML
-- [nodenev](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions.
-- [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows.
-- [nvh](https://github.com/shadowspawn/nvh) Easily install Node.js versions
-- [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js
+- [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
+- [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
+- [direnv](https://github.com/direnv/direnv) unclutter your .profile. (macOS, Linux)
+- [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in native ReasonML. (macOS, Linux)
+- [nodenev](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
+- [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
+- [nvh](https://github.com/shadowspawn/nvh) Easily install Node.js versions. (macOS, Linux)
+- [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 
 ## Suggested Compatible Format
 
