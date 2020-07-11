@@ -39,9 +39,7 @@ If you are reading the file in a new implementation, I suggest you also support 
 Allowing a leading `v` is common and gives nice symmetry with `node --version`. Allowing any line ending makes it easier
 for users and especially Windows users to create a file compatible with your product.
 
-## Compatibility/Support
-
-🚧 Work in progress! 🚧
+## Compatibility Testing
 
 | Version | asdf | avn | direnv | fnm | nodenv | nvh | nvs |
 | ------- | ---- | --- | ------ | --- | ------ | --- | --- |
@@ -54,6 +52,8 @@ for users and especially Windows users to create a file compatible with your pro
 | Linux/Mac EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+ToDo: `nodist`
 
 ## References
 
