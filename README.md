@@ -53,6 +53,15 @@ for users and especially Windows users to create a file compatible with your pro
 | missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
+| OS support/dependencies | asdf | avn | direnv | fnm | nodenv | nodist | nvh | nvs |
+| ------- | ---- | --- | ------ | --- | ------ | ------ | --- | --- |
+| Linux/unix  | [:white_check_mark: *](https://github.com/asdf-vm/asdf/blob/master/docs/core-manage-asdf-vm.md) | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: |
+| macOS  | [:white_check_mark: *](https://github.com/asdf-vm/asdf/blob/master/docs/core-manage-asdf-vm.md) | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: |
+| Windows | [:construction: (partial)](https://github.com/asdf-vm/asdf/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc+windows) | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: | :grey_question: |
+
+
+
+
 ## References
 
 For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
