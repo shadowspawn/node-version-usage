@@ -41,19 +41,17 @@ for users and especially Windows users to create a file compatible with your pro
 
 ## Compatibility Testing
 
-| Version | asdf | avn | direnv | fnm | nodenv | nvh | nvs |
-| ------- | ---- | --- | ------ | --- | ------ | --- | --- |
-| simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: |
+| Version | asdf | avn | direnv | fnm | nodenv | nodist | nvh | nvs |
+| ------- | ---- | --- | ------ | --- | ------ | ------ | --- | --- |
+| simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
-| Line Ending | asdf | avn | direnv | fnm | nodenv | nvh | nvs |
-| ----------- | ---- | --- | ------ | --- | ------ | --- | --- |
-| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-
-ToDo: `nodist`
+| Line Ending | asdf | avn | direnv | fnm | nodenv | nodist | nvh | nvs |
+| ----------- | ---- | --- | ------ | --- | ------ | ------ | --- | --- |
+| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 ## References
 
