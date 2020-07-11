@@ -24,17 +24,20 @@ Products which read a `.node-version` file include (in alphabetical order):
 
 ## Suggested Compatible Format
 
-Very few of the supporting products document what they expect the file to contain! From what I have seen most just read it and process it as normal for _their_ version support. This is an educated guess based on what I have seen.
+Very few of the supporting products document what they expect the file to contain! If you are creating the file, the format with full compatibility across current tests is:
 
-- single line
+- single line with unix line ending
 - three part numeric version e.g. 14.5.0
-- optional leading 'v' e.g. v14.5.0
 
-So for example, this is likely to produce a widely compatible file:
+A leading 'v' is widely supported, so this will work with most implementations:
 
 ```bash
 node --version > .node-version
 ```
+
+If you are reading the file in a new implementation, I suggest you also support optional leading `v` and any line ending.
+Allowing a leading `v` is common and gives nice symmetry with `node --version`. Allowing any line ending makes it easier
+for users and especially Windows users to create a file compatible with your product.
 
 ## Compatibility/Support
 
