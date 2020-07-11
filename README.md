@@ -49,7 +49,7 @@ for users and especially Windows users to create a file compatible with your pro
 
 | Line Ending | asdf | avn | direnv | fnm | nodenv | nvh | nvs |
 | ----------- | ---- | --- | ------ | --- | ------ | --- | --- |
-| Linux/Mac EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
