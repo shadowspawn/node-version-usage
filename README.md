@@ -57,7 +57,7 @@ for users and especially Windows users to create a file compatible with your pro
 
 For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
 
-- <https://gist.github.com/fnichol/1912050#gistcomment-682506>
+- <https://gist.github.com/fnichol/1912050>
 
 Discussion about a standard for `.node-version` was opened in 2016 but got a bit bogged down. No agreement after over 3 years.
 
