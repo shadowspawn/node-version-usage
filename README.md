@@ -47,6 +47,8 @@ for users and especially Windows users to create a file compatible with your pro
 | leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
+[#1]: https://github.com/shadowspawn/node-version-usage/issues/1
+
 | Line Ending | asdf | avn | direnv | fnm | nodenv | nodist | nvh | nvs |
 | ----------- | ---- | --- | ------ | --- | ------ | ------ | --- | --- |
 | unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -66,5 +68,3 @@ Discussion about a standard for `.node-version` was opened in 2016 but got a bit
 StackOverflow: What uses / respects the .node-version file?
 
 - <https://stackoverflow.com/questions/27425852/what-uses-respects-the-node-version-file>
-
-[#1]: https://github.com/shadowspawn/node-version-usage/issues/1
