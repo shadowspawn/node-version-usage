@@ -24,7 +24,7 @@ Products which read a `.node-version` file include (in alphabetical order):
 
 ## Suggested Compatible Format
 
-Very few of the supporting products document what they expect the file to contain! If you are creating the file, the format with full compatibility across current tests is:
+If you are creating the file, the format with full compatibility across current tests is:
 
 - single line with unix line ending
 - three part numeric version e.g. 14.5.0
