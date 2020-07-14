@@ -32,7 +32,9 @@ If you are creating the file, the format with full compatibility across current 
 A leading 'v' is widely supported, so this will work with most implementations:
 
 ```bash
-node --version > .node-version
+$ node --version
+v10.15.3
+$ node --version > .node-version
 ```
 
 If you are reading the file in a new implementation, I suggest you also support optional leading `v` and any line ending.
