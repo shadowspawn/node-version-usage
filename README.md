@@ -21,6 +21,7 @@ Products which read a `.node-version` file include (in alphabetical order):
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
+- [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ## Suggested Compatible Format
 
