@@ -1,6 +1,6 @@
 # .node-version File Usage
 
-Q: Is `.node-version` read by multiple node version managers?  
+Q: Is `.node-version` read by multiple Node.js version managers?  
 A: Yes.
 
 Q: Does `.node-version` have a defined common or standard file format?  
@@ -11,7 +11,7 @@ A: Good question! Read on...
 
 ## Supporting Products
 
-Products which read a `.node-version` file include (in alphabetical order):
+Version managers for Node.js which read a `.node-version` file include (in alphabetical order):
 
 - [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
 - [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
@@ -21,6 +21,9 @@ Products which read a `.node-version` file include (in alphabetical order):
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
+
+Other products which test for `.node-version` include:
+
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ## Suggested Compatible Format
