@@ -67,7 +67,8 @@ For interest, here is a discussion about similar `.ruby-version` file format. Th
 
 - <https://gist.github.com/fnichol/1912050>
 
-Discussion about a standard for `.node-version` was opened in 2016 but got a bit bogged down. No agreement after over 3 years.
+A discussion about a possible standard format for `.node-version` was started in 2016 initially
+covering desirable (new) features and then more focus on existing usage, but did not reach consensus.
 
 - <https://github.com/nodejs/version-management/issues/13>
 
