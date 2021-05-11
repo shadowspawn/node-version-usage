@@ -52,14 +52,12 @@ for users and especially Windows users to create a file compatible with your pro
 | simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: |
-
-[#1]: https://github.com/shadowspawn/node-version-usage/issues/1
-
-| Line Ending | asdf | avn | direnv | fnm | n | nodenv | nodist  | nvs |
-| ----------- | ---- | --- | ------ | --- | - | ------ | ------ | --- |
+| **Line Ending** |  |  |  |  |  |  |  |  |
 | unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+
+[#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 
 ## References
 
