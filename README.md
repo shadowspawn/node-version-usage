@@ -24,6 +24,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 
 Other products which test for `.node-version` include:
 
+- [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
 ## Suggested Compatible Format
