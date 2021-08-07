@@ -51,7 +51,7 @@ for users and especially Windows users to create a file compatible with your pro
 ## Compatibility Testing
 
 | Version Match | asdf | avn | direnv | fnm | n | nodenv | nodist  | nvm.fish | nvs |
-| ------------- | ---- | --- | ------ | --- |---| ------ | ------  | --- |
+| ------------- | ---- | --- | ------ | --- |---| ------ | ------  | -------- | --- |
 | simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
