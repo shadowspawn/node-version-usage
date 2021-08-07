@@ -20,6 +20,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [n](https://github.com/tj/n) Interactively Manage Your Node.js Versions. (macOS, Linux)
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
+- [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish.
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 
 Other products which test for `.node-version` include:
@@ -49,15 +50,15 @@ for users and especially Windows users to create a file compatible with your pro
 
 ## Compatibility Testing
 
-| Version Match | asdf | avn | direnv | fnm | n | nodenv | nodist  | nvs |
+| Version Match | asdf | avn | direnv | fnm | n | nodenv | nodist  | nvm.fish | nvs |
 | ------------- | ---- | --- | ------ | --- |---| ------ | ------  | --- |
-| simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: |
+| simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | **Line Ending** |
-| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 
