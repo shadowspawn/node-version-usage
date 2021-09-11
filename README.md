@@ -25,10 +25,11 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 
 Other products which test for `.node-version` include:
 
+- [cloudflare pages](https://developers.cloudflare.com/pages/platform/build-configuration#language-support-and-tools) Build fast sites. In record time.
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
 - [paketo](https://paketo.io/docs/howto/nodejs/) Your app,
-in your favorite language,
-ready to run in the cloud
+  in your favorite language,
+  ready to run in the cloud
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
@@ -53,15 +54,15 @@ for users and especially Windows users to create a file compatible with your pro
 
 ## Compatibility Testing
 
-| Version Match | asdf | avn | direnv | fnm | n | nodenv | nodist  | nvm.fish | nvs |
-| ------------- | ---- | --- | ------ | --- |---| ------ | ------  | -------- | --- |
-| simple: 14.5.0  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| leading v: v14.5.0  | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| partial version: 10.2 | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| **Line Ending** |
-| unix EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| missing EOL | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| Windows EOL  | :x: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
+| Version Match         | asdf               | avn                | direnv             | fnm                | n                  | nodenv             | nodist             | nvm.fish           | nvs                |
+| --------------------- | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ | ------------------ |
+| simple: 14.5.0        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| leading v: v14.5.0    | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| partial version: 10.2 | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| **Line Ending**       |
+| unix EOL              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| missing EOL           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Windows EOL           | :x:                | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 
