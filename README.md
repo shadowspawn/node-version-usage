@@ -25,6 +25,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 
 Other products which test for `.node-version` include:
 
+- [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/build-configuration#language-support-and-tools) Build fast sites. In record time.
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
 - [paketo](https://paketo.io/docs/howto/nodejs/) Your app,
 in your favorite language,
