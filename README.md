@@ -23,9 +23,10 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish. (macOS, Linux)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 
-Other products which test for `.node-version` include:
+Other products which read `.node-version` include:
 
 - [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/build-configuration#language-support-and-tools) Build fast sites. In record time.
+- [Hostman](https://hostman.com) Hosting platform that deploys your web applications
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
 - [paketo](https://paketo.io/docs/howto/nodejs/) Your app,
 in your favorite language,
