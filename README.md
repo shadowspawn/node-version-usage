@@ -67,6 +67,15 @@ for users and especially Windows users to create a file compatible with your pro
 | missing EOL | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 
+| Utility | Simple 14.5.0 | leading&#10;v v14.5.0 | partial 14.5 | unix EOL | no EOL | Win EOL |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
+| --- | --- | --- | --- | --- | --- | --- |
+
+
+
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 
 ## References
