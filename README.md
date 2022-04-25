@@ -67,19 +67,20 @@ for users and especially Windows users to create a file compatible with your pro
 | missing EOL | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 
-| Utility  | Simple 14.5.0 | **v**14.5.0 | Partial 14.5 | Unix EOL | No EOL | Win EOL |
+| Utility  | 14.5.0 | v14.5.0 | 14.5 | Unix EOL | No EOL | Win EOL |
 | :---     | :---: | :---: | :---: | :---: | :---: | :---: |
-| asdf     | --- | --- | --- | --- | --- | --- |
-| avn      | --- | --- | --- | --- | --- | --- |
-| chnode   | --- | --- | --- | --- | --- | --- |
-| direnv   | --- | --- | --- | --- | --- | --- |
-| fnm      | --- | --- | --- | --- | --- | --- |
-| n        | --- | --- | --- | --- | --- | --- |
-| nenv     | --- | --- | --- | --- | --- | --- |
-| nodenv   | --- | --- | --- | --- | --- | --- |
-| nodist   | --- | --- | --- | --- | --- | --- |
-| nvm.fish | --- | --- | --- | --- | --- | --- |
-| nvs      | --- | --- | --- | --- | --- | --- |
+|          | simple | leading `v` | partial | | | |
+| [asdf]((https://github.com/asdf-vm/asdf-nodejs))     | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: |
+| [avn](https://github.com/wbyoung/avn)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [chnode](https://github.com/tkareine/chnode)   | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :x: | :x: |
+| [direnv](https://github.com/direnv/direnv)   | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| [fnm](https://github.com/Schniz/fnm)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [n](https://github.com/tj/n)        | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [nenv](https://github.com/ryuone/nenv)     | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [nodenv](https://github.com/nodenv/nodenv)   | :white_check_mark: | :white_check_mark: | [#1] | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [nodist](https://github.com/nullivex/nodist)   | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
+| [nvs](https://github.com/jasongin/nvs)      | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 
 
