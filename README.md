@@ -67,12 +67,19 @@ for users and especially Windows users to create a file compatible with your pro
 | missing EOL | :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | Windows EOL  | :x: | :white_check_mark: | :x: | :x: | :white_check_mark: | :white_check_mark: | :white_check_mark: |  :white_check_mark: | :white_check_mark: | :x: | :white_check_mark: |
 
-| Utility | Simple 14.5.0 | leading&#10;v v14.5.0 | partial 14.5 | unix EOL | no EOL | Win EOL |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
-| --- | --- | --- | --- | --- | --- | --- |
+| Utility  | Simple 14.5.0 | **v**14.5.0 | Partial 14.5 | Unix EOL | No EOL | Win EOL |
+| :---     | :---: | :---: | :---: | :---: | :---: | :---: |
+| asdf     | --- | --- | --- | --- | --- | --- |
+| avn      | --- | --- | --- | --- | --- | --- |
+| chnode   | --- | --- | --- | --- | --- | --- |
+| direnv   | --- | --- | --- | --- | --- | --- |
+| fnm      | --- | --- | --- | --- | --- | --- |
+| n        | --- | --- | --- | --- | --- | --- |
+| nenv     | --- | --- | --- | --- | --- | --- |
+| nodenv   | --- | --- | --- | --- | --- | --- |
+| nodist   | --- | --- | --- | --- | --- | --- |
+| nvm.fish | --- | --- | --- | --- | --- | --- |
+| nvs      | --- | --- | --- | --- | --- | --- |
 
 
 
