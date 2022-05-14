@@ -22,6 +22,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nenv](https://github.com/ryuone/nenv) Groom your app’s Node environment with nenv (macOS, Linux)
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
+- [nve](https://github.com/ehmicky/nve) Run any command on specific Node.js versions (macOS, Linux, Windows)
 - [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish. (macOS, Linux)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 
@@ -30,9 +31,8 @@ Other products which read `.node-version` include:
 - [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/build-configuration#language-support-and-tools) Build fast sites. In record time.
 - [Hostman](https://hostman.com) Hosting platform that deploys your web applications
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
-- [paketo](https://paketo.io/docs/howto/nodejs/) Your app,
-in your favorite language,
-ready to run in the cloud
+- [paketo](https://paketo.io/docs/howto/nodejs/) Your app, in your favorite language, ready to run in the cloud
+- [preferred-node-version](https://github.com/ehmicky/preferred-node-version) Get the preferred Node.js version of a project or user
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
