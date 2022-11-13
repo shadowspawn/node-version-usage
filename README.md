@@ -37,6 +37,8 @@ Other products which read `.node-version` include:
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
 
+(Note: [nvm](https://github.com/nvm-sh/nvm) does _not_ support reading a `.node-version` file. See [#4] for more.)
+
 ## Suggested Compatible Format
 
 If you are creating the file, the format with full compatibility across current tests is:
@@ -76,6 +78,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [setup-node](https://github.com/actions/setup-node) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
+[#4]: https://github.com/shadowspawn/node-version-usage/issues/4
 [#8]: https://github.com/shadowspawn/node-version-usage/issues/8
 
 ## References
