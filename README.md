@@ -23,7 +23,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
 - [nve](https://github.com/ehmicky/nve) Run any command on specific Node.js versions (macOS, Linux, Windows)
-- [nvm-rust](https://github.com/BeeeQueue/nvm-rust) A cross-platform node version manager that doesn't suck
+- [nvm-rust](https://github.com/BeeeQueue/nvm-rust) A cross-platform node version manager that doesn't suck (macOS, Linux, Windows)
 - [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish. (macOS, Linux)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 - [setup-node](https://github.com/actions/setup-node) ([configuration](https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file)) Set up your GitHub Actions workflow with a specific version of node.js
