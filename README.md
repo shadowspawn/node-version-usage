@@ -20,6 +20,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in Rust. (macOS, Linux, Windows)
 - [n](https://github.com/tj/n) Interactively Manage Your Node.js Versions. (macOS, Linux)
 - [nenv](https://github.com/ryuone/nenv) Groom your app’s Node environment with nenv (macOS, Linux)
+- [nodeenv](http://ekalinin.github.io/nodeenv/) Virtual environment for Node.js & integrator with virtualenv (macOS, Linux, Windows)
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
 - [nve](https://github.com/ehmicky/nve) Run any command on specific Node.js versions (macOS, Linux, Windows)
@@ -70,6 +71,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [direnv](https://github.com/direnv/direnv)           | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [n](https://github.com/tj/n)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [[nodeenv](http://ekalinin.github.io/nodeenv/)       | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [nenv](https://github.com/ryuone/nenv)               | :white_check_mark: | 🧩 [#8]            | 🧩 [#8]            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
@@ -77,7 +79,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [setup-node](https://github.com/actions/setup-node) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
