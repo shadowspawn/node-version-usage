@@ -39,6 +39,7 @@ Other products which read `.node-version` include:
 - [preferred-node-version](https://github.com/ehmicky/preferred-node-version) Get the preferred Node.js version of a project or user
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- [tea.xyz](https://docs.tea.xyz/features/developer-environments) Cross-platform package manager created by Max Howell, the creator of Homebrew
 
 (Note: [nvm](https://github.com/nvm-sh/nvm) does _not_ support reading a `.node-version` file. See [#4] for more.)
 
