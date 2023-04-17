@@ -63,9 +63,9 @@ for users and especially Windows users to create a file compatible with your pro
 
 ## Compatibility Testing
 
-| Utility                                              | simple             | leading `v`        | partial            | Unix EOL           | No EOL             | Win EOL | Notes |
+| Utility                                              | simple             | leading `v`        | partial            | Unix EOL           | No EOL             | Win EOL | Notes   |
 | :---                                                 | :---:              | :---:              | :---:              | :---:              | :---:              | :---:   |  :---:  |
-|                                                      | e.g. 14.5.0       |  e.g. v14.5.0       | e.g. 14.5          |                    |                    |         |         | 
+|                                                      | `10.1.2`           |  `v10.1.2`         | `10.2`             |                    |                    |         |         |
 | [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
 | [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
 | [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
