@@ -86,7 +86,7 @@ for users and especially Windows users to create a file compatible with your pro
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
 [#8]: https://github.com/shadowspawn/node-version-usage/issues/8
-[#11]: https://github.com/shadowspawn/node-version-usage/issues/11
+[#11]: https://github.com/shadowspawn/node-version-usage/issues/11#issuecomment-1509992826
 
 The columns show whether the utility supports a file containing:
 
