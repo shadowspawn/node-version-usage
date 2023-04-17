@@ -88,6 +88,13 @@ for users and especially Windows users to create a file compatible with your pro
 [#8]: https://github.com/shadowspawn/node-version-usage/issues/8
 [#11]: https://github.com/shadowspawn/node-version-usage/issues/11
 
+The columns show whether the utility supports a file containing:
+
+- simple: three part numeric version, like `10.1.2`
+- leading `v`: three part numeric version with a leading `v`, like `v10.1.2`
+- partial: numeric version with less than three parts, like `10.2`
+- EOL: end of line characters used in file, Unix `\n` or Windows `\r\n` or none
+
 ## References
 
 For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
