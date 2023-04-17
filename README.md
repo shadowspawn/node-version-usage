@@ -63,29 +63,37 @@ for users and especially Windows users to create a file compatible with your pro
 
 ## Compatibility Testing
 
-| Utility                                              | 14.5.0             | v14.5.0            | 14.5               | Unix EOL           | No EOL             | Win EOL |
-| :---                                                 | :---:              | :---:              | :---:              | :---:              | :---:              | :---: |
-|                                                      | simple             | leading `v`        | partial            |                    |                    | |
-| [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: |
-| [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [direnv](https://github.com/direnv/direnv)           | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [n](https://github.com/tj/n)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nodeenv](http://ekalinin.github.io/nodeenv/)        | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nenv](https://github.com/ryuone/nenv)               | :white_check_mark: | 🧩 [#8]            | 🧩 [#8]            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nve](https://github.com/ehmicky/nve)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: |
-| [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [rtx](https://github.com/jdxcode/rtx)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
-| [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: |
+| Utility                                              | simple             | leading `v`        | partial            | Unix EOL           | No EOL             | Win EOL | Notes   |
+| :---                                                 | :---:              | :---:              | :---:              | :---:              | :---:              | :---:   |  :---:  |
+|                                                      | `10.1.2`           |  `v10.1.2`         | `10.2`             |                    |                    |         |         |
+| [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
+| [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
+| [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [direnv](https://github.com/direnv/direnv)           | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
+| [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [n](https://github.com/tj/n)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nodeenv](http://ekalinin.github.io/nodeenv/)        | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nenv](https://github.com/ryuone/nenv)               | :white_check_mark: | 🧩 [#8]            | 🧩 [#8]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nve](https://github.com/ehmicky/nve)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
+| [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [rtx](https://github.com/jdxcode/rtx)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
 [#8]: https://github.com/shadowspawn/node-version-usage/issues/8
+[#11]: https://github.com/shadowspawn/node-version-usage/issues/11
+
+The columns show whether the utility supports a file containing:
+
+- simple: three part numeric version, like `10.1.2`
+- leading `v`: three part numeric version with a leading `v`, like `v10.1.2`
+- partial: numeric version with less than three parts, like `10.2`
+- EOL: end of line characters used in file, Unix `\n` or Windows `\r\n` or none
 
 ## References
 
