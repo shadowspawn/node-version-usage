@@ -29,6 +29,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 - [rtx](https://github.com/jdxcode/rtx) Polyglot switcher compatible with asdf plugins, built in Rust. (macOS, Linux)
 - [setup-node](https://github.com/actions/setup-node) ([configuration](https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file)) Set up your GitHub Actions workflow with a specific version of node.js
+- [tea.xyz](https://docs.tea.xyz/features/developer-environments) Cross-platform package manager created by Max Howell, the creator of Homebrew
 
 Other products which read `.node-version` include:
 
@@ -39,7 +40,6 @@ Other products which read `.node-version` include:
 - [preferred-node-version](https://github.com/ehmicky/preferred-node-version) Get the preferred Node.js version of a project or user
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
-- [tea.xyz](https://docs.tea.xyz/features/developer-environments) Cross-platform package manager created by Max Howell, the creator of Homebrew
 
 (Note: [nvm](https://github.com/nvm-sh/nvm) does _not_ support reading a `.node-version` file. See [#4] for more.)
 
