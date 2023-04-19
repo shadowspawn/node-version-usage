@@ -45,7 +45,7 @@ Other products which read `.node-version` include:
 
 ## Suggested Compatible Format
 
-If you are creating the file, a format with wide compatibility across current tests is:
+If you are creating the file, a format with full compatibility across current tests is:
 
 - single line with unix line ending
 - three part numeric version e.g. 14.5.0
@@ -83,7 +83,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [rtx](https://github.com/jdxcode/rtx)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [tea](https://tea.xyz)                               | :white_check_mark: | :x:                | :white_check_mark: | :x:                | :white_check_mark: | :x:                | |
+| [tea](https://tea.xyz)                               | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
