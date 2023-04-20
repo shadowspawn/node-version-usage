@@ -93,7 +93,7 @@ for users and especially Windows users to create a file compatible with your pro
 The columns show whether the utility supports a file containing:
 
 - simple: three part numeric version, like `10.1.2`
-- leading `v`: three part numeric version with a leading `v`, like `v10.1.2`
+- leading `v`: numeric version with a leading `v`, like `v10.1.2`
 - partial: numeric version with less than three parts, like `10.2`
 - EOL: end of line characters used in file, Unix `\n` or Windows `\r\n` or none
 
