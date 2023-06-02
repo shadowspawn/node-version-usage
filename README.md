@@ -15,7 +15,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 
 - [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
 - [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
-- [chnode](https://github.com/tkareine/chnode) Changes shell's current Node.js version by updating $PATH
+- [chnode](https://github.com/tkareine/chnode) Changes shell's current Node.js version by updating $PATH (macOS, Linux)
 - [direnv](https://github.com/direnv/direnv) unclutter your .profile. (macOS, Linux)
 - [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in Rust. (macOS, Linux, Windows)
 - [n](https://github.com/tj/n) Interactively Manage Your Node.js Versions. (macOS, Linux)
