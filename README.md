@@ -16,6 +16,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
 - [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
 - [chnode](https://github.com/tkareine/chnode) Changes shell's current Node.js version by updating $PATH (macOS, Linux)
+- [dev](https://docs.pkgx.sh/using-dev/dev) `dev` is built on [pkgx](https://docs.pkgx.sh), a single, standalone binary that can run anything (macOS, Linux)
 - [direnv](https://github.com/direnv/direnv) unclutter your .profile. (macOS, Linux)
 - [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in Rust. (macOS, Linux, Windows)
 - [n](https://github.com/tj/n) Interactively Manage Your Node.js Versions. (macOS, Linux)
@@ -29,7 +30,6 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
 - [rtx](https://github.com/jdxcode/rtx) Polyglot switcher compatible with asdf plugins, built in Rust. (macOS, Linux)
 - [setup-node](https://github.com/actions/setup-node) ([configuration](https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file)) Set up your GitHub Actions workflow with a specific version of node.js
-- [tea](https://tea.xyz) tea is the next-generation, cross-platform package manager from the creator of `brew`. (macOS, Linux)
 
 Other products which read `.node-version` include:
 
@@ -70,6 +70,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
 | [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
 | [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [dev](https://docs.pkgx.sh/using-dev/dev)            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [direnv](https://github.com/direnv/direnv)           | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
 | [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [n](https://github.com/tj/n)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
@@ -83,7 +84,6 @@ for users and especially Windows users to create a file compatible with your pro
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [rtx](https://github.com/jdxcode/rtx)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [tea](https://tea.xyz)                               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
