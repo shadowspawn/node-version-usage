@@ -28,7 +28,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nvm-rust](https://github.com/BeeeQueue/nvm-rust) A cross-platform node version manager that doesn't suck (macOS, Linux, Windows)
 - [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish. (macOS, Linux)
 - [nvs](https://github.com/jasongin/nvs) Node Version Switcher - A cross-platform tool for switching between versions and forks of Node.js. (macOS, Linux, Windows)
-- [rtx](https://github.com/jdxcode/rtx) Polyglot switcher compatible with asdf plugins, built in Rust. (macOS, Linux)
+- [mise](https://github.com/jdx/mise) Polyglot switcher compatible with asdf plugins, built in Rust. (macOS, Linux)
 - [setup-node](https://github.com/actions/setup-node) ([configuration](https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file)) Set up your GitHub Actions workflow with a specific version of node.js
 
 Other products which read `.node-version` include:
@@ -82,7 +82,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [rtx](https://github.com/jdxcode/rtx)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [mise](https://github.com/jdx/mise)                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
