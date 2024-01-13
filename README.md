@@ -33,6 +33,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 
 Other products which read `.node-version` include:
 
+- [bitrise](https://bitrise.io) The CI/CD Platform built for Mobile DevOps
 - [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/language-support-and-tools/#supported-languages-and-tools) Build fast sites. In record time.
 - [Hostman](https://hostman.com) Hosting platform that deploys your web applications
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
