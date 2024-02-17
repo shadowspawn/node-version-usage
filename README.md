@@ -41,6 +41,8 @@ Other products which read `.node-version` include:
 - [preferred-node-version](https://github.com/ehmicky/preferred-node-version) Get the preferred Node.js version of a project or user
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- [Vercel Conformance](https://vercel.com/docs/workflow-collaboration/conformance/rules/REQUIRE_NODE_VERSION_FILE) Conformance provides tools that run automated checks on your code for product critical issues, such as performance, security, and code health.
+- [VMware Tanzu](https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-nodejs-nodejs-buildpack.html) The Tanzu Node.js Buildpack supports several popular configurations for Node.js apps.
 
 (Note: [nvm](https://github.com/nvm-sh/nvm) does _not_ support reading a `.node-version` file. See [#4] for more.)
 
