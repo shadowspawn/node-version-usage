@@ -102,9 +102,10 @@ The columns show whether the utility supports a file containing:
 
 ## References
 
-For interest, here is a discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with some products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
+For interest, here are discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with many products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
 
 - <https://gist.github.com/fnichol/1912050>
+- <https://github.com/orgs/rubygems/discussions/7074>
 
 A discussion about a possible standard format for `.node-version` was started in 2016 initially
 covering desirable (new) features and then more focus on existing usage, but did not reach consensus.
