@@ -59,7 +59,7 @@ A leading 'v' is widely supported, so this will work with most implementations:
 
 ```bash
 $ node --version
-v10.15.3
+v20.12.0
 $ node --version > .node-version
 ```
 
@@ -71,7 +71,7 @@ for users and especially Windows users to create a file compatible with your pro
 
 | Utility                                              | simple             | leading `v`        | partial            | Unix EOL           | No EOL             | Win EOL | Notes   |
 | :---                                                 | :---:              | :---:              | :---:              | :---:              | :---:              | :---:   |  :---:  |
-|                                                      | `10.1.2`           |  `v10.1.2`         | `10.2`             |                    |                    |         |         |
+|                                                      | `20.5.0`           |  `v20.5.0`         | `20.5`             |                    |                    |         |         |
 | [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
 | [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
 | [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
@@ -98,9 +98,9 @@ for users and especially Windows users to create a file compatible with your pro
 
 The columns show whether the utility supports a file containing:
 
-- simple: three part numeric version, like `10.1.2`
-- leading `v`: numeric version with a leading `v`, like `v10.1.2`
-- partial: numeric version with less than three parts, like `10.2`
+- simple: three part numeric version, like `20.5.0`
+- leading `v`: numeric version with a leading `v`, like `v20.5.0`
+- partial: numeric version with less than three parts, like `20.5`
 - EOL: end of line characters used in file, Unix `\n` or Windows `\r\n` or none
 
 ## References
