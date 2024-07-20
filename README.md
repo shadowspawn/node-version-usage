@@ -40,6 +40,7 @@ Other products which read `.node-version` include:
 - [netlify](https://docs.netlify.com/configure-builds/manage-dependencies/#node-js-and-javascript) Instantly build and deploy your sites to our global network from Git.
 - [paketo](https://paketo.io/docs/howto/nodejs/) Your app, in your favorite language, ready to run in the cloud
 - [preferred-node-version](https://github.com/ehmicky/preferred-node-version) Get the preferred Node.js version of a project or user
+- [ReadyMage](https://help.readymage.com/project-development/node.js-version#node-version) Magento 2 and PWA managed auto-scalable infrastructure hosting service.
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [Spaceship](https://spaceship-prompt.sh/sections/node/) Minimalistic, powerful and extremely customizable Zsh prompt
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
