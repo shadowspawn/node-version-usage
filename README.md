@@ -82,7 +82,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [mise](https://github.com/jdx/mise)                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [n](https://github.com/tj/n)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [nodeenv](http://ekalinin.github.io/nodeenv/)        | :white_check_mark: | :x:                | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nodeenv](http://ekalinin.github.io/nodeenv/)        | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nenv](https://github.com/ryuone/nenv)               | :white_check_mark: | 🧩 [#8]            | 🧩 [#8]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
