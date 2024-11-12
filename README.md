@@ -32,7 +32,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [setup-node](https://github.com/actions/setup-node) ([configuration](https://github.com/actions/setup-node/blob/main/docs/advanced-usage.md#node-version-file)) Set up your GitHub Actions workflow with a specific version of node.js
 - [vfox](https://vfox.lhan.me) The Multiple SDK Version Manager
 
-Other products which read `.node-version` include:
+Other products which use `.node-version` include:
 
 - [bitrise](https://bitrise.io) The CI/CD Platform built for Mobile DevOps
 - [Cloudflare Pages](https://developers.cloudflare.com/pages/platform/language-support-and-tools/#supported-languages-and-tools) Build fast sites. In record time.
@@ -45,6 +45,7 @@ Other products which read `.node-version` include:
 - [render](https://render.com/docs/node-version) A Cloud for the New Decade
 - [Spaceship](https://spaceship-prompt.sh/sections/node/) Minimalistic, powerful and extremely customizable Zsh prompt
 - [starship](https://starship.rs/config/#nodejs) ☄🌌️ The minimal, blazing-fast, and infinitely customizable prompt for any shell!
+- [typescript-action](https://github.com/actions/typescript-action) Create a TypeScript Action with tests, linting, workflow, publishing, and versioning
 - [Vercel Conformance](https://vercel.com/docs/workflow-collaboration/conformance/rules/REQUIRE_NODE_VERSION_FILE) Conformance provides tools that run automated checks on your code for product critical issues, such as performance, security, and code health.
 - [VMware Tanzu](https://docs.vmware.com/en/VMware-Tanzu-Buildpacks/services/tanzu-buildpacks/GUID-nodejs-nodejs-buildpack.html) The Tanzu Node.js Buildpack supports several popular configurations for Node.js apps.
 
