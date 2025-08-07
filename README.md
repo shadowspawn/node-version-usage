@@ -106,6 +106,14 @@ The columns show whether the utility supports a file containing:
 - partial: numeric version with less than three parts, like `20.5`
 - EOL: end of line characters used in file, Unix `\n` or Windows `\r\n` or none
 
+## Other Formats
+
+The compatibility table deliberately only covers commonly supported formats and is not intended to be a full feature table.
+
+Some utilities do support version specifiers beyond just a numeric version. Often utilities read the `.node-version` file contents and then use their normal version parsing code. Some recognise Node.js codenames (like `Jod`), or convenience targets like `lts`.
+
+There is not wide support for comments in the `.node-version` file, whether on the same line or a separate line.
+
 ## References
 
 For interest, here are discussion about similar `.ruby-version` file format. The commonly supported format is a simple version, with many products adding fuzzy matching. (Ruby is likely the inspiration for some of the `.node-version` usage, especially `nodenv` which uses `rbenv` syntax.)
