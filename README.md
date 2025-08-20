@@ -92,7 +92,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [vfox](https://vfox.lhan.me)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [vfox](https://vfox.dev)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 
 [#1]: https://github.com/shadowspawn/node-version-usage/issues/1
 [#4]: https://github.com/shadowspawn/node-version-usage/issues/4
