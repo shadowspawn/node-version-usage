@@ -16,7 +16,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
 - [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
 - [chnode](https://github.com/tkareine/chnode) Changes shell's current Node.js version by updating $PATH (macOS, Linux)
-- [dev](https://docs.pkgx.sh/using-dev/dev) `dev` is built on [pkgx](https://docs.pkgx.sh), a single, standalone binary that can run anything (macOS, Linux)
+- [dev](https://github.com/pkgxdev/dev) `dev` uses `pkgx` and shellcode to automatically, install and activate the packages you need for different projects as you navigate in your shell.
 - [direnv](https://github.com/direnv/direnv) unclutter your .profile. (macOS, Linux)
 - [fnm](https://github.com/Schniz/fnm) 🚀 Fast and simple Node.js version manager, built in Rust. (macOS, Linux, Windows)
 - [mise](https://github.com/jdx/mise) Polyglot switcher compatible with asdf plugins, built in Rust. (macOS, Linux)
@@ -78,7 +78,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
 | [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
 | [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [dev](https://docs.pkgx.sh/using-dev/dev)            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [dev](https://github.com/pkgxdev/dev)            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [direnv](https://github.com/direnv/direnv)           | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
 | [fnm](https://github.com/Schniz/fnm)                 | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [mise](https://github.com/jdx/mise)                  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
@@ -88,7 +88,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nve](https://github.com/ehmicky/nve)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
-| [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [deprecated](https://github.com/beeequeue/nvm-rust/commit/b6f1aae91138342754a75f9a3f99e3c4bf219e24) |
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
 | [nvs](https://github.com/jasongin/nvs)               | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [setup-node](https://github.com/actions/setup-node)  | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
