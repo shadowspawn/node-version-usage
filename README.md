@@ -14,6 +14,7 @@ A: Good question! Read on...
 Version managers for Node.js which read a `.node-version` file include (in alphabetical order):
 
 - [asdf-nodejs](https://github.com/asdf-vm/asdf-nodejs) Node.js plugin for asdf version manager. (macOS, Linux)
+- [aube](https://aube.jdx.dev) Never forget to install. (macOS, Linux)
 - [avn](https://github.com/wbyoung/avn) Automatic Version Switching for Node. (macOS, Linux)
 - [chnode](https://github.com/tkareine/chnode) Changes shell's current Node.js version by updating $PATH (macOS, Linux)
 - [dev](https://github.com/pkgxdev/dev) `dev` uses `pkgx` and shellcode to automatically, install and activate the packages you need for different projects as you navigate in your shell.
@@ -25,6 +26,7 @@ Version managers for Node.js which read a `.node-version` file include (in alpha
 - [nodeenv](http://ekalinin.github.io/nodeenv/) Virtual environment for Node.js & integrator with virtualenv (macOS, Linux, Windows)
 - [nodenv](https://github.com/nodenv/nodenv) Manage multiple NodeJS versions. (macOS, Linux)
 - [nodist](https://github.com/nullivex/nodist) Natural node.js and npm version manager for windows. (Windows)
+- [nub](https://nubjs.com) The all-in-one JavaScript toolkit that augments Node.js instead of trying to replace it (macOS, Linux, Windows)
 - [nve](https://github.com/ehmicky/nve) Run any command on specific Node.js versions (macOS, Linux, Windows)
 - [nvm-rust](https://github.com/BeeeQueue/nvm-rust) A cross-platform node version manager that doesn't suck (macOS, Linux, Windows)
 - [nvm.fish](https://github.com/jorgebucaran/nvm.fish) Node.js version manager lovingly made for Fish. (macOS, Linux)
@@ -77,6 +79,7 @@ for users and especially Windows users to create a file compatible with your pro
 | :---                                                 | :---:              | :---:              | :---:              | :---:              | :---:              | :---:   |  :---:  |
 |                                                      | `20.5.0`           |  `v20.5.0`         | `20.5`             |                    |                    |         |         |
 | [asdf](https://github.com/asdf-vm/asdf-nodejs)       | :white_check_mark: | :white_check_mark: | :x:                | :white_check_mark: | :white_check_mark: | :x: | |
+| [aube](https://aube.jdx.dev)                         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [avn](https://github.com/wbyoung/avn)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [#11] |
 | [chnode](https://github.com/tkareine/chnode)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [dev](https://github.com/pkgxdev/dev)            | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
@@ -88,6 +91,7 @@ for users and especially Windows users to create a file compatible with your pro
 | [nenv](https://github.com/ryuone/nenv)               | :white_check_mark: | 🧩 [#8]            | 🧩 [#8]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nodenv](https://github.com/nodenv/nodenv)           | :white_check_mark: | :white_check_mark: | 🧩 [#1]            | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nodist](https://github.com/nullivex/nodist)         | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
+| [nub](https://nubjs.com)              | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nve](https://github.com/ehmicky/nve)                | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | |
 | [nvm-rust](https://github.com/BeeeQueue/nvm-rust)    | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :ghost: [deprecated](https://github.com/beeequeue/nvm-rust/commit/b6f1aae91138342754a75f9a3f99e3c4bf219e24) |
 | [nvm.fish](https://github.com/jorgebucaran/nvm.fish) | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :white_check_mark: | :x: | |
